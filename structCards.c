@@ -21,4 +21,7 @@ int main()
 	printf("The face value is: %d\n", card.face);
 	printf("The shape value is: %d\n", card.shape);
 	printf("The color value is: %d\n", card.color);
+
+	struct CardData deck[52] = {1,0,0};
+	printf("The first card face value is %d, shape value is %d, and the color is %d\n", deck[0].face, deck[0].shape, deck[0].color);
 }
